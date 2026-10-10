@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# full-quality source footage; the site serves re-encoded copies from /public
+/video-originals
