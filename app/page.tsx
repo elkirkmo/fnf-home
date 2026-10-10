@@ -62,7 +62,7 @@ export default function Home() {
       <Header
         title="Friday Night Films"
         tagline="Film production"
-        detail="Grip & electric and post-production since 2007"
+        detail="Award-winning pre, prod and post since 2007"
       />
       <nav className={`w-full py-6 ${frostedGlass}`}>
         <div className="mx-auto grid w-full max-w-5xl gap-2 px-6 text-center sm:grid-cols-3 sm:text-left">
