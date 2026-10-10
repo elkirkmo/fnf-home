@@ -19,7 +19,7 @@ export default function Portfolio() {
           className="group mt-6 inline-block text-sm opacity-70 transition-opacity hover:opacity-100"
         >
           <span className="inline-block transition-transform group-hover:-translate-x-1 motion-reduce:transform-none">
-            &lt;-
+            ←
           </span>{" "}
           Home
         </Link>

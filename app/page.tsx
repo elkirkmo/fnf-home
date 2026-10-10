@@ -34,7 +34,7 @@ function SectionCard({ title, description, href }: Section) {
         {title}{" "}
         {href && (
           <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-            -&gt;
+            →
           </span>
         )}
       </h2>

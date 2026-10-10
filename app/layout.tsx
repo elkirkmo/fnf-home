@@ -1,17 +1,14 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Jost } from "next/font/google";
 import BackgroundVideo from "./components/BackgroundVideo";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+// Futura is commercial, so it can't be bundled. Devices that ship it (macOS,
+// iOS) use it; everyone else gets Jost, a free typeface modelled on Futura.
+const jost = Jost({
+  variable: "--font-jost",
   subsets: ["latin"],
 });
 
@@ -25,7 +22,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${jost.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <BackgroundVideo />
