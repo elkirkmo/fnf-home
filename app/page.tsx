@@ -13,6 +13,7 @@ const sections: Section[] = [
   {
     title: "Grip & Electric",
     description: "Crew and equipment for lighting and rigging on set",
+    href: "https://grip.fridaynightfilms.com",
   },
   {
     title: "Post-Production",
